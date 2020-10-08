@@ -10,7 +10,6 @@ body {
     margin: 0;
 }
 
-
 header {
     background-color:#333333;
     margin: 0;
@@ -38,7 +37,7 @@ nav * {
 }
 
 section {
-    margin: 0 20em 0 2em;
+    margin: 0 70em 0 2em;
 }
 
 footer {
