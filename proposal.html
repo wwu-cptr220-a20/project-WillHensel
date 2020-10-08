@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Will Hensel">
+        <meta name="description" content="Potential board game organization apps">
+        <title>Project</title>
+    </head>
+    <body>
+        <header>
+            <h1>Board Game Organizer</h1>
+        </header>
+        <section>
+            <h2>Topic Overview</h2>
+            <p>
+                The general idea behind this app is to organize your board games through categorization and other means in order to make life easier when looking for a
+                game to play with your group. There are existing sites, <a href="https://boardgamegeek.com">Board Game Geek</a> being one of the most popular, that have features that achieve part of this
+                functionality. You can enter games in a list and add comments then search by name and comments. I like the comment feature and I think it would be a nice
+                thing to implement, but the BGG implementation is missing lots of things that could make it a lot better.
+            </p>
+        </section>
+        <section>
+            <h2>Potential Applications</h2>
+            <ul>
+                <li>
+                    <p>
+                        An organization app that works by scanning barcodes, or just product code lookup since this is supposed to be completely web based,
+                        on games which will automatically add to your collection. This could be done through a web api. After a quick search, I found the <a href="https://www.boardgameatlas.com/api/docs">Board Game Atlas API</a>,
+                        that has a database of all known board games. The <a href="https://www.barcodelookup.com/api">Barcode Lookup API</a> could facilitate the product code lookup. The app should also allow searching Board
+                        Game Atlas by name of the board game.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        I could see an app that is more focused on the state of your cabinet with some added comment and categorization features. The site would look like shelves
+                        that can have labels. Since shelves in real cabinets can be deep, you could click on the shelf to show the games that are deep in the shelf as an overlay. It's hard to explain
+                        what I see in my head at the moment, but this would require some pretty particular physical organization by the game owner.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An app that takes all the board games you own and then suggests an organization technique. If you have lots of games with lots of different playing styles (party, singleplayer, campaign, etc.),
+                        it would suggest organizing by those playing styles and then attempt to categorize them for you so you can focus on putting them in the correct physical space.
+                        If you have lots of games of the same playing style, it would probably organize the games in alphabetical order for you. Another idea would be to allow the user
+                        to specify some stuff like separating card from board regardless of playing style but still organize by playing style.
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>

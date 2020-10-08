@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color:#1e1e1e;
+    color:white;
+    font-family: 'Manaco';
+    margin: 0;
+}
+
+
+header {
+    background-color:#333333;
+    margin: 0;
+    color: white;
+    padding: 5px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+
+nav {
+    display: inline-block;     
+    float: right;
+}
+
+nav * {
+    color: white;
+    margin-left: 2px;
+}
+
+#hamburger-menu {
+    font-size: 2rem;
+}
+
+section {
+    margin: 0 20em 0 2em;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+img {
+    width: 15em;
+}
+
+.home-img {
+    width: 20em;
+}
