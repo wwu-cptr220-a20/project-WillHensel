@@ -12,7 +12,7 @@ body {
 
 @media(min-width: 598px) {
     body {
-        background: radial-gradient(#1e1e1e9c, #050505), center / cover url("../img/boardgame.jpg");
+        background: radial-gradient(#080808e0, #050505), center / cover url("../img/boardgame.jpg");
     }
 }
 
