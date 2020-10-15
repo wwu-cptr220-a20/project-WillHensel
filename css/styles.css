@@ -3,57 +3,38 @@
 }
 
 body {
-    height: 100vh;
+    background: none;
     background-color:#1e1e1e;
     color:white;
-    font-family: 'Manaco';
-    margin: 0;
+    font-family: 'Manaco', Helvetica, sans-serif;
+    margin: 0;          
 }
 
-header {
-    background-color:#333333;
-    margin: 0;
-    color: white;
-    padding: 5px;
+@media(min-width: 598px) {
+    body {
+        background: radial-gradient(#1e1e1e9c, #050505), center / cover url("../img/boardgame.jpg");
+    }
 }
 
-header h1 {
-    display: inline-block;
-    margin: 0 0 0 20px;
+.content {
+    height: 100vh;
 }
 
-nav {
-    display: inline-block;     
-    float: right;
+/* https://tobiasahlin.com/blog/how-to-animate-box-shadow/ */
+.card {
+    transition: box-shadow 0.175s ease-in-out;
+    border-radius: 7px;
+    perspective-origin: bottom;
 }
 
-nav * {
-    color: white;
-    margin-left: 2px;
-}
-
-#hamburger-menu {
-    font-size: 2rem;
-}
-
-section {
-    margin: 0 70em 0 2em;
+.card:hover {
+    box-shadow: 0px 5px 20px #0d0d0d;
 }
 
 footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
-footer p {
     text-align: center;
 }
 
-img {
-    width: 15em;
-}
-
-.home-img {
-    width: 20em;
+.navbar-toggler-icon {
+    font-size: 15px;
 }
